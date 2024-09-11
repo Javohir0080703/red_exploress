@@ -4,6 +4,11 @@ import dataImg3 from "./assets/img/dataImg3.png";
 import dataImg4 from "./assets/img/dataImg4.png";
 import dataImg5 from "./assets/img/dataImg5.png";
 import dataImg6 from "./assets/img/dataImg6.png";
+import swiperImg1 from "./assets/img/swiperImg1.png";
+import swiperImg2 from "./assets/img/swiperImg2.png";
+import swiperImg3 from "./assets/img/swiperImg3.png";
+import swiperImg4 from "./assets/img/swiperImg4.png";
+import swiperImg5 from "./assets/img/swiperImg5.png";
 export const allData = [
   {
     title:
@@ -30,8 +35,7 @@ export const allData = [
     bal: 4.8,
     pole: "North Pole",
     img: dataImg2,
-    style:false
-
+    style: false,
   },
   {
     title: "The writer actually live in Philippines",
@@ -44,7 +48,7 @@ export const allData = [
     bal: 4.8,
     pole: "North Pole",
     img: dataImg3,
-    style:false
+    style: false,
   },
   {
     title:
@@ -86,7 +90,7 @@ export const allData = [
     bal: 4.8,
     pole: "North Pole",
     img: dataImg6,
-    style:false
+    style: false,
   },
   {
     title:
@@ -100,7 +104,7 @@ export const allData = [
     bal: 4.8,
     pole: "North Pole",
     img: dataImg1,
-    style:false
+    style: false,
   },
   {
     title:
@@ -143,5 +147,41 @@ export const allData = [
     pole: "North Pole",
     img: dataImg1,
     style: false,
+  },
+];
+
+export const swipperData = [
+  {
+    img:dataImg1
+  },
+  {
+    img:dataImg2
+  },
+  {
+    img:dataImg3
+  },
+  {
+    img:dataImg4
+  },
+  {
+    img:dataImg5
+  },
+  {
+    img:dataImg6
+  },
+  {
+    img:swiperImg1
+  },
+  {
+    img:swiperImg2
+  },
+  {
+    img:swiperImg3
+  },
+  {
+    img:swiperImg4
+  },
+  {
+    img:swiperImg5
   },
 ];

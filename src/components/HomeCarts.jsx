@@ -4,13 +4,13 @@ import location from "../assets/svg/locationSvg.svg";
 import smc from "../assets/svg/smcSvg.svg";
 const HomeCarts = () => {
   return (
-    <section>
+    <section className="bg-white">
       <div className="w-full max-w-[780px]">
-        <ul className="flex items-center flex-wrap gap-y-[55px] gap-x-6">
+        <ul className="flex items-center flex-wrap gap-y-[55px] gap-x-6 bg-white">
           {allData.map((e) => {
             return (
               <li
-                className={` shadow-custom-6 ${
+                className={` ${
                   e.style
                     ? "w-full max-w-[780px] shadow-2xl  "
                     : "w-full max-w-[340px] shadow-2xl"
