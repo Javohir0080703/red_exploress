@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import bgImg from "../assets/img/HomeMain.png";
 import { Link } from "react-router-dom";
-import btnIMg from "../assets/img/btnIMg.png";
+import btnIMg from "../assets/img/btnImg.png";
 const HomeMain = () => {
   return (
     <section
