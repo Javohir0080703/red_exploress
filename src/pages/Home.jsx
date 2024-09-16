@@ -4,6 +4,7 @@ import HomeAboutCarts from "../components/HomeAboutCarts";
 import HomeCarts from "../components/HomeCarts";
 import HomeSwiper from "../components/HomeSwiper";
 import Cta from "../components/Cta";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       </div>
       <HomeSwiper/>
       <Cta/>
+      <Footer/>
     </>
   );
 };

@@ -7,9 +7,10 @@ const HomeCarts = () => {
     <section className="bg-white">
       <div className="w-full max-w-[780px]">
         <ul className="flex items-center flex-wrap gap-y-[55px] gap-x-6 bg-white">
-          {allData.map((e) => {
+          {allData.map((e, index) => {
             return (
               <li
+              key={index}
                 className={` ${
                   e.style
                     ? "w-full max-w-[780px] shadow-2xl  "

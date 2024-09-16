@@ -34,13 +34,13 @@ const HomeSwiper = () => {
             modules={[Autoplay]}
             loop={true}
             autoplay={{
-              delay: 2500,
+              delay: 500,
               disableOnInteraction: false,
             }}
           >
-            {swipperData.map((e) => {
+            {swipperData.map((e, index) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide key={index}>
                   <img className="w-[260px] h-[296px]" src={e.img} alt="img" />
                 </SwiperSlide>
               );

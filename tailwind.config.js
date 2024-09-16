@@ -13,7 +13,13 @@ export default {
         "#60B7FE":"#60B7FE",
         "#FE2C3C":"#FE2C3C",
         "#E14D93":"#E14D93",
-        "#C4C4C4":"#C4C4C4"
+        "#C4C4C4":"#C4C4C4",
+        "#4E4B66":"#4E4B66",
+        "#EDEDED":"#EDEDED",
+        "#14142B":"#14142B",
+        "#E5E5E5":"#E5E5E5",
+        "#DDE2E5":"#DDE2E5",
+        "#6E7191":"#6E7191"
       },
       lineHeight: {
         "14px": "14px",

@@ -46,9 +46,6 @@ const HomeAboutCarts = () => {
           </div>
           {/* Categories */}
           <ul className="w-full pt-4 pb-[72px] px-9  shadow-custom-4 inline-block space-y-5 mb-10">
-            <caption className="text-center font-bold text-3xl leading-[51px] block">
-              Categories
-            </caption>
             <li className="flex items-center justify-between">
               <p className="font-medium text-2xl leading-10  text-#000000 ">
                 Europe
@@ -123,9 +120,10 @@ const HomeAboutCarts = () => {
                 set_swiper(ev);
               }}
             >
-              {allData.map((e) => {
+              {allData.map((e, index) => {
                 return (
                   <SwiperSlide
+                    key={index}
                     className="pt-8 pb-12 px-9"
                     style={{
                       backgroundImage: `linear-gradient(rgba(17, 14, 194, 0.3), rgba(17, 14, 194, 0.3)), url(${e.img})`,
@@ -162,9 +160,9 @@ const HomeAboutCarts = () => {
             Recent Post
           </div>
           <ul className="space-y-11 mb-16">
-            {allData.slice(0, 6).map((e) => {
+            {allData.slice(0, 6).map((e, index) => {
               return (
-                <li className="flex items-center gap-2.5">
+                <li key={index} className="flex items-center gap-2.5">
                   <img
                     className="w-full max-w-[100px] h-[80px]"
                     src={e.img}
@@ -187,7 +185,8 @@ const HomeAboutCarts = () => {
           </div>
           <ul className="grid grid-cols-2 gap-7 justify-center">
             <li className="py-5 pl-7 bg-#4056AC rounded-lg  w-full max-w-[182px]">
-              <a target="_blank"
+              <a
+                target="_blank"
                 className="flex items-center space-x-8"
                 href="https://www.facebook.com/?locale=ru_RU"
               >
@@ -203,7 +202,8 @@ const HomeAboutCarts = () => {
               </a>
             </li>
             <li className="py-5 pl-7 bg-#60B7FE rounded-lg  w-full max-w-[182px]">
-              <a target="_blank"
+              <a
+                target="_blank"
                 className="flex items-center space-x-8"
                 href="https://x.com/?lang=ru"
               >
@@ -219,7 +219,8 @@ const HomeAboutCarts = () => {
               </a>
             </li>
             <li className="py-5 pl-7 bg-#FE2C3C rounded-lg  w-full max-w-[182px]">
-              <a target="_blank"
+              <a
+                target="_blank"
                 className="flex items-center space-x-8"
                 href="https://www.youtube.com/"
               >
@@ -235,7 +236,8 @@ const HomeAboutCarts = () => {
               </a>
             </li>
             <li className="py-5 pl-7 bg-#E14D93 rounded-lg  w-full max-w-[182px]">
-              <a target="_blank"
+              <a
+                target="_blank"
                 className="flex items-center space-x-8"
                 href="https://www.instagram.com/"
               >

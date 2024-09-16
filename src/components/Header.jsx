@@ -27,7 +27,7 @@ const Header = () => {
                 className={`text-#FFA500 font-medium text-base leading-14px p-2 ${
                   pathname === "/about_us" ? "bg-#0336FF text-white rounded-lg px-8 " : ""
                 } `}
-                to="about_us"
+                to="/about_us"
               >
                 About us
               </Link>
