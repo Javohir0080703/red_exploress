@@ -3,6 +3,7 @@ import ContactMain from "../components/ContactMain";
 import ContactForm from "../components/ContactForm";
 import Cta from "../components/Cta";
 import HomeSwiper from '../components/HomeSwiper'
+import Footer from "../components/Footer";
 const Contact = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const Contact = () => {
       <ContactForm/>
       <HomeSwiper/>
       <Cta/>
+      <Footer/>
     </>
   );
 };

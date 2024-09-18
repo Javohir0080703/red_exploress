@@ -5,6 +5,7 @@ import About_Us_Custommers from "../components/About_Us_Custommers";
 import About_Custommers from "../components/About_Custommers";
 import HomeSwiper from '../components/HomeSwiper'
 import Cta from '../components/Cta'
+import Footer from "../components/Footer";
 const About_Us = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const About_Us = () => {
       <About_Custommers/>
       <HomeSwiper/>
       <Cta/>
+      <Footer/>
     </>
   );
 };
